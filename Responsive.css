@@ -1,0 +1,87 @@
+/* navigation */
+
+html{
+    scroll-behavior: smooth;
+  }
+
+#navbar{
+    align-items: center;
+    flex-direction: column;
+}
+
+#navbar ul li a{ 
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+/* home */
+#home{
+    height: 469px;
+    padding:3px 68px ;
+    
+
+}
+#home::before{
+    height: 480px;
+    
+
+}
+#home p{
+    font: size 13px;
+}
+/* about */
+
+.panels {
+    
+    min-height: 50vh;
+    overflow: hidden;
+    display: flex;
+  }
+
+  
+
+/* services */
+#services{
+    margin-top: 0%;
+   margin: 60px;
+    flex-direction: column;
+
+}
+#services .box{
+    padding: 14px;
+    margin:2px 0;
+    margin-bottom: 20px;
+
+}
+
+#services .box p{
+    text-align: justify;
+}
+#services1{
+    margin: 60px;
+    flex-direction: column;
+
+}
+
+#services1 .box{
+    padding: 14px;
+    margin:2px 0;
+    margin-bottom: 20px;
+
+    #services1 .box p{
+        text-align: justify;
+    }
+
+/* footer */
+
+
+
+/* utility classes */
+.h-primary {
+    font-size: 26px;
+}
+
+.btn{
+    font: size 13px;
+    padding:4px 8px;
+}
